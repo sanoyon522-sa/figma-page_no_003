@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Custom tailwindcss start here -->
+  <style type="text/tailwindcss">
+    @theme {
+          --color-primary-gray: #353749;
+          --color-secondary-gray: #b1b2b9;
+          --color-primary-blue: #0B2A77;
+          --color-secondary-blue: #e4eded;
+          --color-primary-red: #cc1609;
+          --color-secondary-red: #cb5549;
+          --color-light-green: #d0e0d4;
+          --color-primary-cyan: #968b7c;
+          --color-secondary-white: #F9FAFC;
+          --color-transparent-black:#1818181A;
+          --color-primary-green: #6DA015;
+          --color-primary-black:#000;
+          --color-secondary-cyan:#EAEAEA;
+          --color-cyan:#606060;
+          --color-secondary-black: #333333;
+          --color-dark-white: #C0C0C0;
+          --color-light-black: #555555;
+          --color-light-green: #F1F6F2;
+          --color-name: #555555;
+          
+          
+          --shadow-primary: 0 4px 25px -4px rgba(0, 0, 0, 0.1);
+          --shadow-secondary: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    
+          --breakpoint-xs: 375px;
+          --breakpoint-sm: 480px;
+          --breakpoint-md: 650px;
+          --breakpoint-lg: 768px;
+          --breakpoint-xl: 1024px;
+          --breakpoint-2xl: 1320px;
+    
+          --container-max-width: 1320px;
+          --container-padding-x: 1rem;
+        }
+        .container{
+          max-width: var(--container-max-width);
+          padding-left: var(--container-padding-x);
+          padding-right: var(--container-padding-x);
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+    
+      </style>
+  <!-- Custom tailwindcss ended here -->
+</head>
+<body>
+<!-- section no 01 ....started here  -->
+<section
+  style="  background-image:url('./assets/image.png'); background-size: cover; background-position: inherit; background-repeat:no-repeat ;"
+  class=" relative h-[802px] w-auto ">
+
+  <!-- navber started here..... -->
+  <div class=" h-[735px] w-full">
+    <div class="bg-[#1818181A] backdrop-blur-[8px] h-[84.6px]">
+      <nav class=" container h-auto w-auto items-center ">
+        <div class=" flex flex-row justify-between py-[16px] h-[52.62px]">
+          <div>
+            <img src="./assets/logo.png" alt="not found"
+              class=" cursor-pointer w-[101.42px] h-[52.62px] object-cover  ">
+          </div>
+          <ul class=" flex flex-row items-center gap-x-[44px] w-[610px] h-[24px] py-[30.3px]">
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent   cursor-pointer ">
+              Home
+            </li>
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white  hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent cursor-pointer ">
+              Services
+            </li>
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+              About us
+            </li>
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+              Rates
+            </li>
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent  cursor-pointer ">
+              Cost calculator
+            </li>
+            <li
+              class="text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium    text-white hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent cursor-pointer ">
+              Benifites
+            </li>
+          </ul>
+          <div class="flex flex-row gap-x-[12px] items-center w-auto h-[52px]">
+            <button
+              class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white w-[109px] h-[44px] rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent ">
+              Sign in
+            </button>
+            <button
+              class="h-[44px] w-[109px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white  rounded-[26px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-primary-green cursor-pointer hover:bg-none hover:bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-clip-text hover:text-transparent">
+              Sign up
+            </button>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+    <!-- navber ended here... -->
+    <!-- text section started here.... -->
+    <div class="flex justify-center h-auto w-auto">
+      <div class="flex flex-col items-center justify-center gap-x-[24px] max-h-[298px] max-w-[576px] pt-[400px] ">
+        <h1 class="font-roboto text-[68px] font-bold font-[700] leading-[110%] tracking-[0.04] text-white text-center">
+          About Us
+        </h1>
+        <p class="text-[20px] font-roboto font-regular font-[400] leading-[150%] text-white text-center pt-[24px] ">
+          Lorem ipsum dolor sit amet consectetur. Congue lacinia tempor orci tellus sollicitudin morbi. Duis massa sit
+        </p>
+        <div
+          class="absolute cursor-pointer bg-gradient-to-r from-[#6DA015] to-[#46C0A2] h-[60px] w-[60px] rounded-full right-[60px] bottom-[60px] flex justify-center items-center hover:bg-none hover:bg-transparent border border-[#6DA015]">
+          <img src="./assets/Group (3).png" alt="" class="h-[34px] w-[34px]" />
+        </div>
+
+
+</section>
+<!-- section no 01 ....ended here  -->
+
+
+<!-- section no 02 starded here..   -->
+<section class="h-auto w-auto py-[75px] flex items-center justify-center">
+  <div class="container h-auto flex flex-col justify-center gap-[32px]">
+    <div class="flex flex-col gap-3 items-center justify-center">
+      <h4 class="text-[#333333] text-[36px] font-roboto font-normal font-[700] leading-[120%] tracking-[1.44px]">Why Choose Us</h4>
+      <p
+        class="text-[#606060] text-[20px] text-center font-roboto font-normal font-[300] leading-[130%] tracking-[0.2px]">
+        Lorem ipsum dolor sit amet consectetur. Congue lacinia <br>
+        tempor orci tellus sollicitudin morbi. Duis</p>
+    </div>
+    <div class="container h-[527px] flex flex-row gap-[76px] justify-between">
+      <div class="relative w-[667px] h-[494px] rounded-[16px] " style="background-image: url(./assets/image\ \(4\).png);" >
+        <div class="h-[313px] w-[313px] rounded-[29px] border-[0.2px] border-[#46C0A2] bg-[#1818181A]/5 backdrop-blur-[8px] flex justify-center items-center absolute bottom-[-18.67px] right-[-55px] "><img src="./assets/image (3).png" alt="" class="w-[297px] h-[297px] rounded-[26px]"></div>
+      </div>
+      <div class="flex flex-col gap-[10px]">
+        <div class="w-[575px] h-[120px] bg-[#F1F7F6] rounded-[11px] border-[0.7px] border-[#46C0A2]">
+          <div class="h-[78.4px] w-[535px] py-[20.8px] px-[20px] flex flex-row gap-[10.4px] ">
+            <div class="flex justify-center items-center pt-[33px] "><img src="./assets/Frame (4).svg" alt="" class="w-[54px] h-[54px]  "></div>
+            <div class="flex flex-col gap-[10px]">
+              <h4 class="text-[#606060] text-[20px] font-roboto font-normal font-[600] leading-[130%] tracking-[0.2px]">Package Consolidation</h4>
+              <p class="text-[#606060] font-roboto font-normal font-[300] text-[14px] leading-[150%] tracking-[0.14px]">Lorem ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu egestas</p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[575px] h-[120px] bg-[#F1F7F6] rounded-[11px] border-[0.7px] border-[#46C0A2]">
+          <div class="h-[78.4px] w-[535px] py-[20.8px] px-[20px] flex flex-row gap-[10.4px] ">
+            <div class="flex justify-center items-center pt-[33px] "><img src="./assets/Frame (5).svg" alt=""
+                class="w-[54px] h-[54px]  "></div>
+            <div class="flex flex-col gap-[10px]">
+              <h4 class="text-[#606060] text-[20px] font-roboto font-normal font-[600] leading-[130%] tracking-[0.2px]">Security & Reliability</h4>
+              <p class="text-[#606060] font-roboto font-normal font-[300] text-[14px] leading-[150%] tracking-[0.14px]">Lorem
+                ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu egestas</p>
+            </div>
+          </div>
+        </div>
+          <div class="w-[575px] h-[120px] bg-[#F1F7F6] rounded-[11px] border-[0.7px] border-[#46C0A2]">
+            <div class="h-[78.4px] w-[535px] py-[20.8px] px-[20px] flex flex-row gap-[10.4px] ">
+              <div class="flex justify-center items-center pt-[33px] "><img src="./assets/Frame (6).svg" alt=""
+                  class="w-[54px] h-[54px]  "></div>
+              <div class="flex flex-col gap-[10px]">
+                <h4 class="text-[#606060] text-[20px] font-roboto font-normal font-[600] leading-[130%] tracking-[0.2px]">Real-time Tracking</h4>
+                <p class="text-[#606060] font-roboto font-normal font-[300] text-[14px] leading-[150%] tracking-[0.14px]">Lorem
+                  ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu egestas</p>
+              </div>
+            </div>
+          </div>
+            <div class="w-[575px] h-[120px] bg-[#F1F7F6] rounded-[11px] border-[0.7px] border-[#46C0A2]">
+              <div class="h-[78.4px] w-[535px] py-[20.8px] px-[20px] flex flex-row gap-[10.4px] ">
+                <div class="flex justify-center items-center pt-[33px] "><img src="./assets/Frame (7).svg" alt=""
+                    class="w-[54px] h-[54px]  "></div>
+                <div class="flex flex-col gap-[10px]">
+                  <h4 class="text-[#606060] text-[20px] font-roboto font-normal font-[600] leading-[130%] tracking-[0.2px]">24/7 Support</h4>
+                  <p class="text-[#606060] font-roboto font-normal font-[300] text-[14px] leading-[150%] tracking-[0.14px]">Lorem
+                    ipsum dolor sit amet consectetur. Ut a donec neque mattis blandit fermentum id. Sagittis eu egestas</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- section no 02 starded here..   -->
+
+<!-- section no 03 starded here..   -->
+<section class="h-auto w-auto pb-[75px] flex items-center justify-center">
+  <div class="container h-auto flex flex-col justify-center gap-[32px]">
+    <div class="flex flex-col gap-3 items-center justify-center">
+      <h4 class="text-[#333333] text-[36px] font-roboto font-normal font-[700] leading-[120%] tracking-[1.44px]">Company Overview</h4>
+      <p class="text-[#606060] text-[20px] text-center font-roboto font-normal font-[300] leading-[130%] tracking-[0.2px]">Lorem ipsum dolor sit amet consectetur. Congue lacinia <br>
+      tempor orci tellus sollicitudin morbi. Duis</p>
+    </div>
+    <div class="relative container h-[600px] rounded-[36px] flex items-center justify-center">
+      <img src="./assets/image (5).png" alt="">
+      <img src="./assets/video-button.png" alt="" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[130px] w-[130px]">
+    </div>
+  </div>
+
+</section>
+
+<!-- section no 03 starded here..   -->
+
+
+  <!-- section no 04 started  here... -->
+  <section class="w-auto h-[562px] flex justify-center items-center bg-secondary-white">
+    <div class="container h-[422px]  flex flex-col gap-[16px]">
+      <div class="relative container h-[106] flex flex-col ">
+        <h2
+          class="font-roboto font-bold font-[700] text-[36px] leading-[150%] tracking-[0.04em] text-secondary-black h-[54px]">
+          Our Customer Feedback</h2>
+        <p class="font-roboto font-light font-[300] leading-[130%] text-[20px] h-[52px] tracking-[0.01em] text-cyan">Lorem
+          Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's
+          standard
+          dummy text ever</p>
+        <div class="absolute bottom-0 right-0 w-[90px] h-[40px] flex flex-row gap-[10px] ">
+          <div class="cursor-pointer w-[40px] h-[40px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center ">
+            <img src="./assets/left.png" alt="" class="w-[35px] h-[35px]">
+          </div>
+          <div class="cursor-pointer w-[40px] h-[40px] rounded-full bg-gradient-to-r from-[#6DA015] to-[#46C0A2] flex items-center justify-center ">
+            <img src="./assets/right.png" alt="" class="w-[35px] h-[35px]">
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-[12px]">
+        <div class="w-[429px] h-[300px] rounded-[10px] border-[1.5px] bg-white border-dark-white"> <!--001-->
+          <div class="p-[25px] flex flex-col gap-[13px]">
+            <div class="relative h-[62.68px]">
+              <img src="./assets/ronald.png" alt="" class="rounded-full w-[60px] h-[60px]">
+              <div class="absolute top-0 right-0 flex flex-row gap-[5px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_half.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_outline.png" alt="" class="h-[25px] w-[24px]">
+              </div>
+            </div>
+            <h4
+              class="font-roboto font-semibold text-[20px] font-[600] leading-[100%] tracking-[0.02em] text-secondary-black">
+              Ronald Richards</h4>
+            <p class="font-roboto font-regular font-[400] text-[18px] leading-[150%] text-cyan">ullamco est sit aliqua
+              dolor do amet sint. Velit <br> officia consequat duis enim velit mollit. <br> Exercitation veniam consequat
+              sunt nostrud <br> amet.</p>
+          </div>
+        </div>
+        <div class="w-[429px] h-[300px] rounded-[10px] border-[1.5px] bg-white border-dark-white"> <!--001-->
+          <div class="p-[25px] flex flex-col gap-[13px]">
+            <div class="relative h-[62.68px]">
+              <img src="./assets/lady.png" alt="" class="rounded-full w-[60px] h-[60px]">
+              <div class="absolute top-0 right-0 flex flex-row gap-[5px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_half.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_outline.png" alt="" class="h-[25px] w-[24px]">
+              </div>
+            </div>
+            <h4
+              class="font-roboto font-semibold text-[20px] font-[600] leading-[100%] tracking-[0.02em] text-secondary-black">
+              Floyd Miles</h4>
+            <p class="font-roboto font-regular font-[400] text-[18px] leading-[150%] text-cyan">ullamco est sit aliqua
+              dolor do
+              amet sint. Velit <br> officia consequat duis enim velit mollit. <br> Exercitation veniam consequat
+              sunt nostrud <br> amet.</p>
+          </div>
+        </div>
+        <div class="w-[429px] h-[300px] rounded-[10px] border-[1.5px] bg-white border-dark-white"> <!--001-->
+          <div class="p-[25px] flex flex-col gap-[13px]">
+            <div class="relative h-[62.68px]">
+              <img src="./assets/savanna.png" alt="" class="rounded-full w-[60px] h-[60px]">
+              <div class="absolute top-0 right-0 flex flex-row gap-[5px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_purple500.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_half.png" alt="" class="h-[25px] w-[24px]">
+                <img src="./assets/star_outline.png" alt="" class="h-[25px] w-[24px]">
+              </div>
+            </div>
+            <h4
+              class="font-roboto font-semibold text-[20px] font-[600] leading-[100%] tracking-[0.02em] text-secondary-black">
+              Savannah Nguyen</h4>
+            <p class="font-roboto font-regular font-[400] text-[18px] leading-[150%] text-cyan">ullamco est sit aliqua
+              dolor do
+              amet sint. Velit <br> officia consequat duis enim velit mollit. <br> Exercitation veniam consequat
+              sunt nostrud <br> amet.</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>
+  <!-- section no 04 ended here... -->
+
+
+  <!-- section no 05 ended here... -->
+  <section class="w-auto h-[900px] flex justify-center items-center ">
+    <div class="container h-[655px] bg-white flex flex-col gap-[32px]">
+      <h2 class="font-roboto font-bold font-[700] text-[36px] text-secondary-black">Our Blog</h2>
+      <div class="flex justify-between ">
+        <p class=" font-robot font-light font-[300] leading-[130%] tracking-[0.01em] text-[20px] text-cyan">Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br> been the industry's standard
+          dummy text ever since the 1500s</p>
+        <button
+          class="w-[111px] h-[44px] rounded-[38px] border-[1px] border-primary-green font-roboto font-[500] font-medium text-[16px] leading-[150%] tracking-[0.01em] text-primary-green cursor-pointer hover:border-transparent hover:bg-primary-green hover:text-white">View
+          All</button>
+      </div>
+      <div class="flex flex-row justify-between gap-x-20 items-center py-[30px]">
+        <article class="relative w-[484px] h-[486px] rounded-[8px] shadow-md">
+          <div class="overflow-hidden">
+            <img src="./assets/Rectangle 2041.png" alt="Consultation" class="w-[424px] h-[262px] object-cover rounded-t-[8px] " />
+          </div>
+  
+          <div class="text-center">
+            <h3 class=" py-[29px] text-[25px] font-[700] text-[#555555] leading-[100%] mt-[7px]">
+              Initial Consultation
+            </h3>
+  
+            <p class="text-[16px] font-[400] font-roboto font-regular text-cyan mt-[8px]">
+              Schedule a meeting with our experienced <br> legal team to discuss your case and <br> understand
+              your needs.
+            </p>
+  
+            <a href="#"
+              class="absolute bottom-[-20px] left-[118px] inline-block px-8 py-3 mt-[10px] rounded-full bg-gradient-to-r from-green-600 to-green-400 text-white font-semibold shadow hover:scale-105 transform transition">
+              READ MORE
+            </a>
+          </div>
+        </article>
+        <article class="relative w-[484px] h-[486px] rounded-[8px] shadow-md">
+          <div class="overflow-hidden">
+            <img src="./assets/Rectangle 2042 (2).png" alt="Consultation" class="w-[424px] h-[262px] object-cover rounded-t-[8px] " />
+          </div>
+  
+          <div class="text-center">
+            <h3 class=" py-[29px] text-[25px] font-[700] text-[#555555] leading-[100%] mt-[7px]">
+              Initial Consultation
+            </h3>
+  
+            <p class="text-[16px] font-[400] font-roboto font-regular text-cyan mt-[8px]">
+              Schedule a meeting with our experienced <br> legal team to discuss your case and <br> understand
+              your needs.
+            </p>
+  
+            <a href="#"
+              class="absolute bottom-[-20px] left-[118px] inline-block px-8 py-3 mt-[10px] rounded-full bg-gradient-to-r from-green-600 to-green-400 text-white font-semibold shadow hover:scale-105 transform transition">
+              READ MORE
+            </a>
+          </div>
+        </article>
+        <article class="relative w-[484px] h-[486px] rounded-[8px] shadow-md">
+          <div class="overflow-hidden">
+            <img src="./assets/Rectangle 2042 (3).png" alt="Consultation"
+              class="w-[424px] h-[262px] object-cover rounded-t-[8px] " />
+          </div>
+  
+          <div class="text-center">
+            <h3 class=" py-[29px] text-[25px] font-[700] text-[#555555] leading-[100%] mt-[7px]">
+              Initial Consultation
+            </h3>
+  
+            <p class="text-[16px] font-[400] font-roboto font-regular text-cyan mt-[8px]">
+              Schedule a meeting with our experienced <br> legal team to discuss your case and <br> understand
+              your needs.
+            </p>
+  
+            <a href="#"
+              class="absolute bottom-[-20px] left-[118px] inline-block px-8 py-3 mt-[10px] rounded-full bg-gradient-to-r from-green-600 to-green-400 text-white font-semibold shadow hover:scale-105 transform transition">
+              READ MORE
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- section no 05 ended here... -->
+  
+  
+  <!-- footer section started here-->
+  <footer class="w-auto h-[462px] bg-primary-blue flex justify-center items-center">
+    <div class="w-[1320px] h-[368px]  flex flex-col ">
+      <div class="w-[1320px] h-[312px]  border-b-[1px] border-cyan flex flex-row justify-between">
+        <div class="w-[449px] flex flex-col gap-4">
+          <img src="./assets/logo.png" alt="not fount" class="w-[121.42px] h-[62.98px]">
+          <p class="font-roboto font-[300] font-light text-white text-[16px] leading-[150%]">Lorem ipsum dolor sit amet
+            consectetur. Neque consequat tristique bibendum facilisis odio congue enim. Tempor justo
+            proin faucibus praesent ac. Dui nunc sit aliquam eget adipiscing feugiat turpis. Ut eleifend blandit
+            suspendisse
+            sollicitudin amet dictum mauris.</p>
+        </div>
+        <div class="w-[133px] h-[224px] flex flex-col gap-[26px]">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Support</h6>
+          <p class="mb-4 font-roboto font-light font-[300] text-[16px] leading-[30px] text-white">FAQ <br>
+            Return & Exchange <br>
+            Shipping <br>
+            Brand <br>
+            Review <br>
+            Help</p>
+        </div>
+        <div class="w-[133px] h-[224px] flex flex-col gap-[26px]">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Company</h6>
+          <p class="mb-4 font-roboto font-light font-[300] text-[16px] leading-[30px] text-white">Service <br> Restricted
+            Items <br> Terms & Conditions <br> Privacy Policy <br> Blog <br> Contact Us</p>
+        </div>
+        <div class="w-[390px] h-[197px] flex flex-col gap-6">
+          <h6 class="font-roboto font-[700]font-bold text-[18px] text-primary-green leading-[122.2%] ">Join a Newsletter
+          </h6>
+          <div class="w-[390px] h-[85px] flex flex-col gap-2">
+            <p class="font-roboto font-regular font-[400] text-[16px] text-white leading-[150%]">Your Email</p>
+            <div class="w-[367px] h-[53px] rounded-[100px] bg-white flex flex-row gap-21 items-center ">
+              <p class="font-roboto font-[100] font-thin text-[16px] leading-[150%] tracking-[0.024em] pl-4">Your email
+                address</p>
+              <button
+                class="bg-gradient-to-r from-[#6DA015] to-[#46C0A2] hover:bg-none text-[16px] font-[500] font-roboto leading-[150%] tracking-[0.01em] font-medium text-white px-[5.5px] w-[127px] h-[42px] rounded-[100px]  hover:border-solid hover:border-primary-green hover:bg-transparent hover:border-[1px] hover:text-[#6DA015]  cursor-pointer  ">
+                Subscrube
+              </button>
+            </div>
+          </div>
+          <div class="w-[152px] h-[40px] flex flex-row gap-4">
+            <div
+              class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/facebooklogo.png" alt="" class="h-[20px]">
+            </div>
+            <div
+              class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/intagramlogo.png" alt="" class="h-[20px]">
+            </div>
+            <div
+              class="h-[40px] w-[40px] bg-gradient-to-r from-[#6DA015] to-[#46C0A2] rounded-full flex items-center justify-center cursor-pointer">
+              <img src="./assets/tewiterlogo.png" alt="" class="h-[20px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-[1320px] h-[56px] bg-primary-blue flex justify-center">
+        <p class="absolute font-roboto font-thin font-[100] text-[24px] mb-1 text-white bottom-0 ">© SWIFT EXPRESS CARGO
+          2025, All Rights Reserved</p>
+      </div>
+    </div>
+  
+  </footer>
+  <!-- footer section started here-->
+
+</body>
+</html>
